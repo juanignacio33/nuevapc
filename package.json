@@ -1,0 +1,23 @@
+{
+  "name": "benitez-electricidad",
+  "version": "1.0.0",
+  "description": "un paquete",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanignacio33/nuevapc.git"
+  },
+  "author": "juan benitez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanignacio33/nuevapc/issues"
+  },
+  "homepage": "https://github.com/juanignacio33/nuevapc#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
