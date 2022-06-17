@@ -3,6 +3,25 @@
   padding-top: 0%;
   box-sizing: border-box; }
 
+.main__h1 {
+  color: #ffd503;
+  font-size: 69px;
+  font-weight: 900;
+  font-style: Arial, Helvetica, sans-serif;
+  background-color: rgba(179, 42, 213, 0.737);
+  border-radius: 10%; }
+
+.main__contacto {
+  background: #8f908d; }
+
+.main__section-ol {
+  font-style: arial, sans-serif;
+  color: #30056d;
+  font-weight: 300;
+  font-size: 40px;
+  background-color: rgba(230, 226, 8, 0.776);
+  border-radius: 10%; }
+
 .header_nav-ul {
   font-style: oblique;
   font-size: 30px;
@@ -21,20 +40,9 @@ li {
 .li3 {
   background: #1b0035; }
 
-.main__h1 {
-  color: #ffd503;
-  font-size: 69px;
-  font-weight: 900;
-  font-style: Arial, Helvetica, sans-serif;
-  background-color: rgba(179, 42, 213, 0.737);
-  border-radius: 10%; }
-
 h3 {
   font-size: 35px;
   font-weight: 200; }
-
-.main__contacto {
-  background: #8f908d; }
 
 .grid-his {
   display: grid;
@@ -60,14 +68,6 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-
-.main__section-ol {
-  font-style: arial, sans-serif;
-  color: #30056d;
-  font-weight: 300;
-  font-size: 40px;
-  background-color: rgba(230, 226, 8, 0.776);
-  border-radius: 10%; }
 
 table, th, td {
   background-color: rgba(251, 255, 19, 0.788);
