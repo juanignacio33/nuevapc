@@ -4,19 +4,21 @@
     
     .main {
         &__h1 {
-            color: rgb(255, 213, 3);
+    
+            color: $uvaMimain;
             font-size: 69px;
             font-weight:900;
             font-style:Arial, Helvetica, sans-serif;
-            background-color: rgba(179, 42, 213, 0.737);
-            border-radius: 10%;}
+            background-color: $mainh1c ;
+            border-radius: 10%;
+        }
             
             &__contacto {
                 background: rgb(143, 144, 141);}
              
             &__section-ol {
                     font-style:arial, sans-serif;
-                    color: rgb(48, 5, 109);
+                    color: $mainsection ;
                     font-weight:300 ;
                     font-size:40px;
                     background-color: rgba(230, 226, 8, 0.776);
@@ -66,7 +68,7 @@
     color: rgb(245, 245, 245);
     }
     .main_p--historia{
-     background-color:lightgreen ;
+     background-color:$historia ;
      font-size: 25px;
      font-style: helvetica;
      display: grid;
