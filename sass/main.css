@@ -56,7 +56,8 @@ h3 {
 .grid-his {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 50px 30px;
 }
@@ -163,11 +164,7 @@ body {
       grid-template-columns: auto auto auto;
   -ms-grid-rows: auto auto auto auto auto;
       grid-template-rows: auto auto auto auto auto;
-      grid-template-areas: 'h1'
- 'ool'
- 'tabla'
- 'form'
- 'form2';
+      grid-template-areas: 'h1' 'ool' 'tabla' 'form' 'form2';
 }
 
 header {
