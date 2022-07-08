@@ -183,6 +183,12 @@ table {
   .h1-ol {
     display: flex;
     align-items: center; }
+    .grid-his{
+      display: grid;
+      grid-template-columns: repeat(3,1fr );
+      gap: 1rem;
+      padding: 50px 30px;   
+  }
    }
 
 @media screen and (min-width: 120px) and (max-width: 767px) {
@@ -201,4 +207,5 @@ table {
     height: 100%; }
   .main__h1 {
     font-size: 52px; }
+    
    }
