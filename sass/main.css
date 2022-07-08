@@ -213,6 +213,14 @@ table {
         -ms-flex-align: center;
             align-items: center;
   }
+  .grid-his {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 50px 30px;
+  }
 }
 
 @media screen and (min-width: 120px) and (max-width: 767px) {
