@@ -257,8 +257,6 @@ table {
         grid-template-columns: repeat(1fr);
     gap: 1rem;
     padding: 50px 30px;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
   }
 }
 /*# sourceMappingURL=main.css.map */
