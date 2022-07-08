@@ -1,0 +1,36 @@
+@media screen and (min-width:768px) {
+ #grilla{
+        display: flex;
+        flex-direction: column;
+}
+.h1-ol {
+        display: flex;
+        align-items: center;
+} 
+}
+
+@media screen and (min-width:120px) and (max-width: 767px) {
+
+    #grilla{
+    display: flex;
+    flex-direction: column;
+}
+
+table , th , td  {
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+.h1-ol {
+       display:flex;
+       flex-direction: column;
+} 
+   body {
+    background-image: url(../img/estrellas-1-e1581020428572.jpg) ;
+    width:100%;
+    height: 100%;
+}
+    .main__h1  {
+        font-size:52px ;
+}
+}

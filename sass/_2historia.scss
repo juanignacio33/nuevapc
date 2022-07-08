@@ -1,0 +1,27 @@
+.grid-his{
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+    gap: 1rem;
+    padding: 50px 30px;
+     
+}
+.h {
+background-color: green;
+color: rgb(245, 245, 245);
+}
+.main_p--historia{
+ background-color:$historia ;
+ font-size: 25px;
+ font-style: helvetica;
+ display: grid;
+    gap: 1rem;
+    padding: 50px 30px;
+}
+.his {
+    background-color: lightgreen;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
